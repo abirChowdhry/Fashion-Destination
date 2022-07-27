@@ -1,0 +1,86 @@
+*{
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: sans-serif;
+ }
+
+body
+{
+   width: 100%;
+   height: 100vh;
+   background: linear-gradient(rgba(0,0,0,0.5), #4b4b4b), url(main.jpg);
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   overflow: hidden;
+}
+
+.main
+{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+
+h1
+{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    color: #fff;
+}
+
+label
+{
+    font-size: 20px;
+    margin: 15px 0;
+    color: #fff;
+}
+
+input
+{
+    font-size: 16px;
+    width: 100%;
+    padding: 8px 05px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    align-items: center;
+}
+
+button
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    align-items: center;
+}
+
+button[type="submit"]:hover
+{
+    background: #ffc107;
+    color: #000;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 23px;
+    line-height: 25px;
+    color: #fff;
+}
+
+a:hover
+{
+    background: #ffc107;
+    color: #000;
+}

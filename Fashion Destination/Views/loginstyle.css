@@ -1,0 +1,187 @@
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: sans-serif;
+ }
+
+body
+{
+   width: 100%;
+   height: 100vh;
+   background: linear-gradient(rgba(0,0,0,0.5), #4b4b4b), url(main.jpg);
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   overflow: hidden;
+}
+
+.main
+{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+
+
+/*.login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}*/
+
+/*.box
+{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+}*/
+
+/*.navigation-bar
+
+{
+
+    display: flex;
+
+    padding: 5px;
+
+    padding-left: 1000px;
+
+    padding-right: 30px;
+
+    padding-top: -1000px;
+}
+
+nav ul 
+
+{
+
+    display: inline-block;
+
+    list-style: none;
+
+}
+
+nav ul li
+
+{
+
+    display: inline-block;
+
+    margin-right: 90px;
+
+}
+
+nav ul li a
+
+{
+
+    text-decoration: none;
+
+    font-size: 20px;
+
+    color: white;
+
+}*/
+
+h1
+{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+label
+{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+input[type="text"]
+{
+    font-size: 18px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+input[type="password"]
+{
+    font-size: 18px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+button
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    align-items: center;
+}
+
+.main input[type="text"]:hover, input[type="password"]:hover {
+    box-shadow: 2px 2px 5px #555;
+    background-color: #ddd;
+}
+
+button[type="submit"]:hover
+{
+    background: #ffc107;
+    color: #000;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 23px;
+    line-height: 25px;
+    color: #fff;
+}
+
+a:hover
+{
+    background: #ffc107;
+    color: #000;
+}
+
+.check-box
+{
+    margin: 10px 15px 12px 0;
+}
+
+input[type="check-box"]
+{
+margin: 30px 10px 30px ;
+}
+
+span
+{
+    color: #fff;
+    font-size: 18px;
+    bottom: 50px;
+    position: absolute;
+}
